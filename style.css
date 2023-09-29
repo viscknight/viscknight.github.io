@@ -13,7 +13,7 @@ body, footer, main, header {
 body {
 	margin: 0;
 	background-color: #161616;
-	background-image: url("ghost-nebula-IC-63.png");
+	background-image: url("images/ghost-nebula-IC-63.png");
 	background-size: 100vw;
 	color: #f9f9f9;
 }
