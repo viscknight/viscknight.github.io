@@ -1,0 +1,235 @@
+﻿@charset "UTF-8";
+
+/* All pages (start) */
+* {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+body, footer, main, header {
+	left: 0;
+	width: 100vw;
+}
+
+body {
+	margin: 0;
+	background-color: #161616;
+	background-image: url("ghost-nebula-IC-63.png");
+	background-size: 100vw;
+	color: #f9f9f9;
+}
+
+header {
+	top: 0;
+	width: 100vw;
+}
+
+main {
+	width: 100vw;
+	padding: 15px 0;
+	align-items: center;
+	color: #f9f9f9;
+}
+
+/*Footer*/
+footer {
+	position: fixed;
+	bottom: 0;
+	padding: 10px 0px 5px;
+	background-color: #161616;
+	color: #f9f9f9;
+}
+
+footer a {
+	color: #f9f9f9;
+}
+
+footer h5 {
+	font-size: 12px;
+}
+
+footer h6 {
+	line-height: 0.1px;
+	font-size: 9px;
+	padding-top: 10px;
+}
+
+/*Text*/
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #5af945;
+}
+
+/*Section*/
+section {
+	border-color: #f2f9f2;
+	border-style: dotted;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+section h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Social media icons*/
+.socialIcon {
+	width: 30px;
+	margin: 0px 10px;
+}
+
+.socialIcon:hover {
+	opacity: 0.7;
+}
+
+/*Dropdown Menu*/
+.dropdown {
+	display: inline-block;
+}
+
+.dropBtn {
+	margin: 15px 15px 0;
+	border: none;
+	border-radius: 3px;
+	background-color: #5af945;
+	padding: 15px 20px;
+	color: #161616;
+	font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-left: 15px;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #5af945;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #bdf945;
+	color: #727272;
+}
+
+/*Forms*/
+form input {
+	padding: 6px 8px;
+	width: 80%;
+	border-radius: 3px;
+	border: none;
+	background-color: #161616;
+	color: #f9f9f9;
+}
+
+form input:focus {
+	outline-color: #5af945;
+}
+
+form select{
+	padding: 6px 8px;
+	border-radius: 3px;
+	border: none;
+	background-color: #161616;
+	color: #f9f9f9;
+}
+
+.formBtn {
+	background-color: #5af945;
+	padding: 10px 15px;
+	font-size: 20px;
+	margin: 5px;
+	border: none;
+	z-index: 1;
+	border-radius: 3px;
+	color: #161616;
+}
+
+.formBtn:hover {
+	background-color: #bdf945;
+	opacity: 0.7;
+}
+
+.formBtn a {
+	text-decoration: none;
+	color: #161616;
+}
+
+textarea {
+	width: 80%;
+	height: 5em;
+	resize: none;
+	background-color: #161616;
+	color: #f9f9f9;
+	border: none;
+	border-radius: 3px;
+	padding: 6px 8px;
+}
+
+textarea:focus {
+	outline-color: #5af945;
+}
+
+abbr {
+	text-decoration: none;
+}
+
+mark {
+	background-color: greenyellow;
+	color: #161616;
+}
+
+/*All pages (end)*/
+
+
+/*Home page*/
+#homeImg {
+	width: 80%;
+	max-width: 1000px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border-style: dotted;
+}
+
+#pageBtn {
+	display: inline-block;
+	background-color: #5af945;
+	padding: 15px 30px;
+	font-size: 20px;
+	margin: 15px;
+	border: none;
+	border-radius: 3px;
+	z-index: 1;
+	color: #161616;
+}
+
+#pageBtn:hover {
+	background-color: #bdf945;
+}
