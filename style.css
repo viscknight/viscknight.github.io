@@ -1,20 +1,71 @@
 ﻿@charset "UTF-8";
 
-/* All pages (start) */
-* {
-	font-family: 'Courier New', Courier, monospace;
+/*Fonts*/
+
+@font-face {
+	font-family: 'Space Grotesk Light';
+	src: url(fonts/SpaceGrotesk-Light.woff2) format("woff2");
 }
 
-body, footer, main, header {
-	left: 0;
+@font-face {
+	font-family: 'Space Grotesk Medium';
+	src: url(fonts/SpaceGrotesk-Medium.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	src: url(fonts/SpaceGrotesk-Regular.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'Space Grotesk Bold';
+	src: url(fonts/SpaceGrotesk-Bold.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'VG5000';
+	src: url(fonts/VG5000-Regular_web.woff2);
+}
+
+@font-face {
+	font-family: 'GlyphWorld Forest';
+	src: url(fonts/GlyphWorld-Forest.otf);
+}
+
+@font-face {
+	font-family: 'GlyphWorld Mountain';
+	src: url(fonts/GlyphWorld-Mountain.otf);
+}
+
+/*@font-face {
+	font-family: 'GlyphWorld Flower';
+	src: url(fonts/GlyphWorld-Flower.otf);
+}*/
+
+* {
+	font-family: 'Space Grotesk', 'Inconsolata', 'Courier New', Courier, monospace;
+}
+
+html {
+    height: 100%;
+    display: table;
+    margin: auto;
+}
+
+body, header, main, footer {
 	width: 100vw;
+	left: 0;
 }
 
 body {
+    height: 100%;
 	margin: 0;
+    display: table-cell;
+    vertical-align: middle;
 	background-color: #161616;
-	background-image: url("images/ghost-nebula-IC-63.png");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/b-and-w-circular-gradient.jpg");
 	background-size: 100vw;
+	background-position: center;
 	color: #f9f9f9;
 }
 
@@ -25,9 +76,8 @@ header {
 
 main {
 	width: 100vw;
-	padding: 15px 0;
+	/*padding: 15px 0;*/
 	align-items: center;
-	color: #f9f9f9;
 }
 
 /*Footer*/
@@ -55,11 +105,16 @@ footer h6 {
 
 /*Text*/
 h1 {
-	font-size: 40px;
+	font-size: 70px;
+	font-family: 'Space Grotesk Bold', 'Inconsolata', 'Courier New', Courier, monospace;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 30px;
+}
+
+p {
+	font-size: 12px;
 }
 
 a {
@@ -93,7 +148,17 @@ section h1 {
 	opacity: 0.7;
 }
 
-/*Dropdown Menu*/
+svg {
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+}
+
+svg:hover {
+	fill: #5af945;
+}
+
+/*Dropdown menu*/
 .dropdown {
 	display: inline-block;
 }
@@ -204,9 +269,6 @@ mark {
 	background-color: greenyellow;
 	color: #161616;
 }
-
-/*All pages (end)*/
-
 
 /*Home page*/
 #homeImg {
