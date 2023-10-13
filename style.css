@@ -63,7 +63,7 @@ body {
     display: table-cell;
     vertical-align: middle;
 	background-color: #161616;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/b-and-w-circular-gradient.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("images/b-and-w-circular-gradient.jpg"); /*url: https://unsplash.com/photos/1ToDl3lYOv8*/
 	background-size: 100vw;
 	background-position: center;
 	color: #f9f9f9;
